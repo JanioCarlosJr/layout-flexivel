@@ -15,22 +15,33 @@
 <body>
     <main>
         <section id="tela-de-login">
-            <img class="logo-riot" src="assets/riot-logo.png" alt="Logo Riot Games">
+            <img class="logo-riot" src="assets/Riot-Games-Logo-red.png" alt="Logo Riot Games">
             <span class="login">LOGIN</span>
             <input class="usuario" type="text" id="nome-usuario" placeholder="Usuario">
             <input class="senha" type="text" id="senha-usuario" placeholder="Senha">
-            <div>
-                <input type="checkbox">
-                <p>Lembrar de mim</p>
+
+            <div class="esqueci-senha-lembrar-de-mim">
+                <div class="checkbox-remember">
+                    <label for="checkbox">
+                        <input id="checkbox" type="checkbox" class="checkbox"> Lembrar de mim.</label>
+                </div>
+                <a href="#" class="esqueci-a-senha">Esqueceu a senha?</a>
             </div>
-            <a href="#" class="esqueci-a-senha">Esqueceu a senha?</a>
-            <button type="button" class="botao-entrar"> ENTRAR</button>
-            <p>Não possui conta? <a href="#">Registrar</a></p>
-            <p>ou entrar com</p>
+
+            <button type="button" class="botao-entrar">ENTRAR</button>
+
+            <p class="registrar" >Não possui conta? <a href="#" class="registrar-link">Registrar</a></p>
+
+            <hr>
+
+            <p class="ou-entrar-com">ou entrar com</p>
+
+            <div class="outros-meios-login">            
             <button type="button" class="google-login"><img class="google-logo" src="assets/google logo.png"
                     alt="Botao de login do google"></button>
             <button type="button" class="xbox-login"><img class="xbox-logo" src="assets/xbox-logo.png"
                     alt="Botao de login do xbox live"></button>
+            </div>
         </section>
     </main>
 </body>
